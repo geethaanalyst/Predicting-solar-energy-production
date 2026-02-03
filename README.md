@@ -19,3 +19,21 @@ The goal is to enable data-driven decisions that optimize project planning, equi
 * **Using standardscaler for numeric features.**
 * **Split data into training (80%) and testing (20%) sets for model building.**
 
+## **Machine Learning Models**
+All models were evaluated using metrics MAE, MSE, RMSE and R² Score to ensure robust performance comparison.
+
+### **Models Used**
+* **Random Forest Regressor**
+* **XGBoost Regressor**
+* **LightGBM Regressor**
+### **Hyperparameter tuning**
+* **Best parameter in Random forest  max depth: 15, min_sample_split: 2, min_sample_leaf: 1.**
+* **Best parameter in XGBoost max depth: 8, learning rate: 0.01.**
+* **Best parameter in LightGBM max depth: 30, number of leaves: 50, learning rate: 0.05.**
+
+## **Model Performance**
+<img width="856" height="453" alt="image" src="https://github.com/user-attachments/assets/9cfd69b8-5f7e-421a-9ac4-37b7b3cf06f3" />
+
+## **Exploratory Data Analysis**
+<img width="982" height="593" alt="image" src="https://github.com/user-attachments/assets/c837f7f9-377b-44c7-8a1b-06fe7c442fb9" />
+
