@@ -37,3 +37,28 @@ All models were evaluated using metrics MAE, MSE, RMSE and R² Score to ensure r
 ## **Exploratory Data Analysis**
 <img width="982" height="593" alt="image" src="https://github.com/user-attachments/assets/c837f7f9-377b-44c7-8a1b-06fe7c442fb9" />
 
+## **Key Findings**
+* **Recent installations show higher efficiency, suggesting advancements in solar technology.**
+* **Regional variations in production highlight the need for targeted investment strategies.**
+### **Most Influential Factors**
+* **Developer** 
+* **Location(county/Zip)**
+* **System size**
+
+### **Model Performance:**
+XGBoost Regression
+* **The XGBoost model achieved an R² of 0.79, providing strong accuracy in predicting annual solar energy production.**
+
+## **Recommendations**
+* **Integrate the AI model to forecast energy output during project planning and site selection.**
+* **Prioritize high-performing counties and developers for investment.**
+* **Include data-driven predictions in client proposals to improve trust and transparency.**
+* **Continuously update the model with new project and environmental data for improved accuracy.**
+
+## **Conclusion**
+* **The developed machine learning models — particularly XGBoost and LightGBM — have demonstrated strong predictive performance, achieving an R² of ~0.79, meaning they can explain nearly 79% of the variance in annual solar energy production.** 
+* **The models effectively leverage factors such as developer, county, interconnection year, and system size trends to predict future production levels.**
+* **This predictive capability enables the company to make data-driven decisions for project planning, resource allocation, and developer selection.**
+* **By utilizing these insights, the business can optimize installation sites, maximize ROI, and enhance customer trust through accurate production estimates.**
+* **This project demonstrates how machine learning can drive smarter, greener, and more profitable solar investments.**
+
